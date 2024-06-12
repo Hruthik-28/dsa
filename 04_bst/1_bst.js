@@ -125,20 +125,19 @@ class BinarySearchTree {
             result.push(node.key);
         }
     }
-
-    
 }
 
-// const bst = new BinarySearchTree();
-// bst.insert(10);
-// bst.insert(12);
-// bst.insert(15);
-// bst.insert(2);
-// bst.insert(1);
-// bst.insert(5);
-// bst.insert(3);
-// // bst.delete(2);
+// usage
+const bst = new BinarySearchTree();
+bst.insert(10);
+bst.insert(12);
+bst.insert(15);
+bst.insert(2);
+bst.insert(1);
+bst.insert(5);
+bst.insert(3);
+bst.delete(2);
 
-// console.log(bst.preOrderTraversal());
-// console.log(bst.inOrderTraversal());
-// console.log(bst.postOrderTraversal());
+console.log(bst.preOrderTraversal());
+console.log(bst.inOrderTraversal());
+console.log(bst.postOrderTraversal());
